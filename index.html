@@ -33,15 +33,17 @@
     <a href="#products">الهدايا</a>
 </div>
 <header class="hero">
-    <p class="brand">BAM LINE</p>
+    <div class="hero-content">
+        <p class="brand">BAM LINE</p>
 
-    <h1>Korean Beauty</h1>
+        <h1>Korean Beauty</h1>
 
-    <p class="hero-text">
-        عناية كورية أصلية مختارة بعناية من داخل كوريا
-    </p>
+        <p class="hero-text">
+            عناية كورية أصلية مختارة بعناية من داخل كوريا
+        </p>
 
-    <a href="#products" class="hero-btn">SHOP NOW</a>
+        <a href="#products" class="hero-btn">تسوق الآن</a>
+    </div>
 </header>
 <section id="products" class="products">
     <p class="section-label">OUR COLLECTION</p>
@@ -159,13 +161,16 @@
         color: inherit;
     }
 .hero {
-    min-height: 90vh;
+    min-height: 520px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
+    background-image: url("banner.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .brand {
