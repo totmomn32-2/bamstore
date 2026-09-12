@@ -25,6 +25,13 @@
         ☰
     </div>
 </nav>
+<div class="category-bar">
+    <a href="#products">العناية بالبشرة</a>
+    <a href="#products">المكياج</a>
+    <a href="#products">العناية بالشعر</a>
+    <a href="#products">العروض</a>
+    <a href="#products">الهدايا</a>
+</div>
 <header class="hero">
     <p class="brand">BAM LINE</p>
 
@@ -355,6 +362,26 @@
 
 .menu-icon {
     font-size: 24px;
+}
+.category-bar {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 16px 20px;
+    background: #fffaf9;
+    border-bottom: 1px solid #eee2e4;
+    overflow-x: auto;
+}
+
+.category-bar a {
+    white-space: nowrap;
+    color: #4f4548;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.category-bar a:hover {
+    color: #b88991;
 }
 </style>
 <footer class="site-footer">
